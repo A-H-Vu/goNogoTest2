@@ -1,0 +1,486 @@
+2.8295 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+30.3562 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1360, 768]. Using actual size
+33.5893 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001AC3B0C4978>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001AC3AE55668>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+33.5894 	EXP 	window1: recordFrameIntervals = False
+33.7545 	EXP 	window1: recordFrameIntervals = True
+33.8576 	WARNING 	t of last frame was 21.16ms (=1/47)
+34.1543 	EXP 	window1: recordFrameIntervals = False
+34.9957 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+35.0188 	EXP 	Created trialBlue = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='trialBlue', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+35.0330 	EXP 	Created trialOrange = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([ 1.   ,  0.004, -1.   ]), fillColorSpace='rgb', fillRGB=array([ 1.   ,  0.004, -1.   ]), interpolate=True, lineColor=array([ 1.   ,  0.004, -1.   ]), lineColorSpace='rgb', lineRGB=array([ 1.   ,  0.004, -1.   ]), lineWidth=1, name='trialOrange', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+35.0404 	EXP 	Created trialFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialFix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+35.0548 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+35.0740 	EXP 	Created trialBlue = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='trialBlue', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+35.0917 	EXP 	Created trialOrange = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([ 1.   ,  0.004, -1.   ]), fillColorSpace='rgb', fillRGB=array([ 1.   ,  0.004, -1.   ]), interpolate=True, lineColor=array([ 1.   ,  0.004, -1.   ]), lineColorSpace='rgb', lineRGB=array([ 1.   ,  0.004, -1.   ]), lineWidth=1, name='trialOrange', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+35.0954 	EXP 	Created trialFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialFix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+35.1053 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+35.1256 	EXP 	Created trialBlue = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0.0, fillColor=array([-1., -1.,  1.]), fillColorSpace='rgb', fillRGB=array([-1., -1.,  1.]), interpolate=True, lineColor=array([-1., -1.,  1.]), lineColorSpace='rgb', lineRGB=array([-1., -1.,  1.]), lineWidth=1, name='trialBlue', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+35.1401 	EXP 	Created trialOrange = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([ 1.   ,  0.004, -1.   ]), fillColorSpace='rgb', fillRGB=array([ 1.   ,  0.004, -1.   ]), interpolate=True, lineColor=array([ 1.   ,  0.004, -1.   ]), lineColorSpace='rgb', lineRGB=array([ 1.   ,  0.004, -1.   ]), lineWidth=1, name='trialOrange', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+35.1441 	EXP 	Created trialFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialFix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+35.1875 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+35.2282 	EXP 	instr1: autoDraw = True
+45.8748 	EXP 	Imported goNogoCond1.xlsx as conditions, 40 conditions, 3 params
+45.8763 	EXP 	Created sequence: sequential, trialTypes=40, nReps=1, seed=None
+45.8779 	EXP 	New trial (rep=0, index=0): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+45.8828 	DATA 	Keypress: s
+45.8906 	EXP 	instr1: autoDraw = False
+45.8906 	EXP 	trialBlue: opacity = 0.0
+45.8906 	EXP 	trialOrange: opacity = 1.0
+45.8906 	EXP 	trialFix: autoDraw = True
+46.8880 	EXP 	trialBlue: autoDraw = True
+46.8880 	EXP 	trialOrange: autoDraw = True
+46.9030 	EXP 	trialFix: autoDraw = False
+48.8077 	EXP 	New trial (rep=0, index=1): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+48.8215 	EXP 	trialBlue: autoDraw = False
+48.8215 	EXP 	trialOrange: autoDraw = False
+48.8215 	EXP 	trialFix: autoDraw = False
+48.8215 	EXP 	trialBlue: opacity = 1.0
+48.8215 	EXP 	trialOrange: opacity = 0.0
+48.8215 	EXP 	trialFix: autoDraw = True
+49.8002 	EXP 	trialBlue: autoDraw = True
+49.8002 	EXP 	trialOrange: autoDraw = True
+49.8335 	EXP 	trialFix: autoDraw = False
+50.2945 	EXP 	New trial (rep=0, index=2): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+50.2976 	DATA 	Keypress: space
+50.3029 	EXP 	trialBlue: autoDraw = False
+50.3029 	EXP 	trialOrange: autoDraw = False
+50.3029 	EXP 	trialFix: autoDraw = False
+50.3029 	EXP 	trialBlue: opacity = 1.0
+50.3029 	EXP 	trialOrange: opacity = 0.0
+50.3029 	EXP 	trialFix: autoDraw = True
+51.3000 	EXP 	trialBlue: autoDraw = True
+51.3000 	EXP 	trialOrange: autoDraw = True
+51.3184 	EXP 	trialFix: autoDraw = False
+51.8401 	EXP 	New trial (rep=0, index=3): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+51.8439 	DATA 	Keypress: space
+51.8533 	EXP 	trialBlue: autoDraw = False
+51.8533 	EXP 	trialOrange: autoDraw = False
+51.8533 	EXP 	trialFix: autoDraw = False
+51.8533 	EXP 	trialBlue: opacity = 1.0
+51.8533 	EXP 	trialOrange: opacity = 0.0
+51.8533 	EXP 	trialFix: autoDraw = True
+52.8333 	EXP 	trialBlue: autoDraw = True
+52.8333 	EXP 	trialOrange: autoDraw = True
+52.8674 	EXP 	trialFix: autoDraw = False
+53.2714 	EXP 	New trial (rep=0, index=4): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+53.2741 	DATA 	Keypress: space
+53.2847 	EXP 	trialBlue: autoDraw = False
+53.2847 	EXP 	trialOrange: autoDraw = False
+53.2847 	EXP 	trialFix: autoDraw = False
+53.2847 	EXP 	trialBlue: opacity = 1.0
+53.2847 	EXP 	trialOrange: opacity = 0.0
+53.2847 	EXP 	trialFix: autoDraw = True
+54.2669 	EXP 	trialBlue: autoDraw = True
+54.2669 	EXP 	trialOrange: autoDraw = True
+54.3149 	EXP 	trialFix: autoDraw = False
+54.6948 	EXP 	New trial (rep=0, index=5): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+54.6981 	DATA 	Keypress: space
+54.7033 	EXP 	trialBlue: autoDraw = False
+54.7033 	EXP 	trialOrange: autoDraw = False
+54.7033 	EXP 	trialFix: autoDraw = False
+54.7033 	EXP 	trialBlue: opacity = 1.0
+54.7033 	EXP 	trialOrange: opacity = 0.0
+54.7033 	EXP 	trialFix: autoDraw = True
+55.6992 	EXP 	trialBlue: autoDraw = True
+55.6992 	EXP 	trialOrange: autoDraw = True
+55.6992 	EXP 	trialFix: autoDraw = False
+56.1257 	DATA 	Keypress: space
+56.1406 	EXP 	New trial (rep=0, index=6): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+56.1510 	EXP 	trialBlue: autoDraw = False
+56.1510 	EXP 	trialOrange: autoDraw = False
+56.1510 	EXP 	trialFix: autoDraw = False
+56.1510 	EXP 	trialBlue: opacity = 0.0
+56.1510 	EXP 	trialOrange: opacity = 1.0
+56.1510 	EXP 	trialFix: autoDraw = True
+57.1327 	EXP 	trialBlue: autoDraw = True
+57.1327 	EXP 	trialOrange: autoDraw = True
+57.1665 	EXP 	trialFix: autoDraw = False
+59.1207 	EXP 	New trial (rep=0, index=7): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+59.1324 	EXP 	trialBlue: autoDraw = False
+59.1324 	EXP 	trialOrange: autoDraw = False
+59.1324 	EXP 	trialBlue: autoDraw = False
+59.1324 	EXP 	trialOrange: autoDraw = False
+59.1324 	EXP 	trialFix: autoDraw = False
+59.1324 	EXP 	trialBlue: opacity = 0.0
+59.1324 	EXP 	trialOrange: opacity = 1.0
+59.1324 	EXP 	trialFix: autoDraw = True
+60.1150 	EXP 	trialBlue: autoDraw = True
+60.1150 	EXP 	trialOrange: autoDraw = True
+60.1323 	EXP 	trialFix: autoDraw = False
+62.1018 	EXP 	New trial (rep=0, index=8): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+62.1156 	EXP 	trialBlue: autoDraw = False
+62.1156 	EXP 	trialOrange: autoDraw = False
+62.1156 	EXP 	trialBlue: autoDraw = False
+62.1156 	EXP 	trialOrange: autoDraw = False
+62.1156 	EXP 	trialFix: autoDraw = False
+62.1156 	EXP 	trialBlue: opacity = 1.0
+62.1156 	EXP 	trialOrange: opacity = 0.0
+62.1156 	EXP 	trialFix: autoDraw = True
+63.0976 	EXP 	trialBlue: autoDraw = True
+63.0976 	EXP 	trialOrange: autoDraw = True
+63.1316 	EXP 	trialFix: autoDraw = False
+63.4381 	EXP 	New trial (rep=0, index=9): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+63.4415 	DATA 	Keypress: space
+63.4535 	EXP 	trialBlue: autoDraw = False
+63.4535 	EXP 	trialOrange: autoDraw = False
+63.4535 	EXP 	trialFix: autoDraw = False
+63.4535 	EXP 	trialBlue: opacity = 1.0
+63.4535 	EXP 	trialOrange: opacity = 0.0
+63.4535 	EXP 	trialFix: autoDraw = True
+64.4303 	EXP 	trialBlue: autoDraw = True
+64.4303 	EXP 	trialOrange: autoDraw = True
+64.4641 	EXP 	trialFix: autoDraw = False
+64.7690 	EXP 	New trial (rep=0, index=10): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+64.7720 	DATA 	Keypress: space
+64.7806 	EXP 	trialBlue: autoDraw = False
+64.7806 	EXP 	trialOrange: autoDraw = False
+64.7806 	EXP 	trialFix: autoDraw = False
+64.7806 	EXP 	trialBlue: opacity = 0.0
+64.7806 	EXP 	trialOrange: opacity = 1.0
+64.7806 	EXP 	trialFix: autoDraw = True
+65.7630 	EXP 	trialBlue: autoDraw = True
+65.7630 	EXP 	trialOrange: autoDraw = True
+65.7795 	EXP 	trialFix: autoDraw = False
+67.7525 	EXP 	New trial (rep=0, index=11): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+67.7638 	EXP 	trialBlue: autoDraw = False
+67.7638 	EXP 	trialOrange: autoDraw = False
+67.7638 	EXP 	trialBlue: autoDraw = False
+67.7638 	EXP 	trialOrange: autoDraw = False
+67.7638 	EXP 	trialFix: autoDraw = False
+67.7638 	EXP 	trialBlue: opacity = 0.0
+67.7638 	EXP 	trialOrange: opacity = 1.0
+67.7638 	EXP 	trialFix: autoDraw = True
+68.7456 	EXP 	trialBlue: autoDraw = True
+68.7456 	EXP 	trialOrange: autoDraw = True
+68.7787 	EXP 	trialFix: autoDraw = False
+70.7324 	EXP 	New trial (rep=0, index=12): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+70.7446 	EXP 	trialBlue: autoDraw = False
+70.7446 	EXP 	trialOrange: autoDraw = False
+70.7446 	EXP 	trialBlue: autoDraw = False
+70.7446 	EXP 	trialOrange: autoDraw = False
+70.7446 	EXP 	trialFix: autoDraw = False
+70.7446 	EXP 	trialBlue: opacity = 0.0
+70.7446 	EXP 	trialOrange: opacity = 1.0
+70.7446 	EXP 	trialFix: autoDraw = True
+71.7285 	EXP 	trialBlue: autoDraw = True
+71.7285 	EXP 	trialOrange: autoDraw = True
+71.7446 	EXP 	trialFix: autoDraw = False
+73.7322 	EXP 	New trial (rep=0, index=13): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+73.7437 	EXP 	trialBlue: autoDraw = False
+73.7437 	EXP 	trialOrange: autoDraw = False
+73.7437 	EXP 	trialBlue: autoDraw = False
+73.7437 	EXP 	trialOrange: autoDraw = False
+73.7437 	EXP 	trialFix: autoDraw = False
+73.7437 	EXP 	trialBlue: opacity = 0.0
+73.7437 	EXP 	trialOrange: opacity = 1.0
+73.7437 	EXP 	trialFix: autoDraw = True
+74.7277 	EXP 	trialBlue: autoDraw = True
+74.7277 	EXP 	trialOrange: autoDraw = True
+74.7438 	EXP 	trialFix: autoDraw = False
+76.7322 	EXP 	New trial (rep=0, index=14): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+76.7428 	EXP 	trialBlue: autoDraw = False
+76.7428 	EXP 	trialOrange: autoDraw = False
+76.7428 	EXP 	trialBlue: autoDraw = False
+76.7428 	EXP 	trialOrange: autoDraw = False
+76.7428 	EXP 	trialFix: autoDraw = False
+76.7428 	EXP 	trialBlue: opacity = 0.0
+76.7428 	EXP 	trialOrange: opacity = 1.0
+76.7428 	EXP 	trialFix: autoDraw = True
+77.7283 	EXP 	trialBlue: autoDraw = True
+77.7283 	EXP 	trialOrange: autoDraw = True
+77.7434 	EXP 	trialFix: autoDraw = False
+79.7316 	EXP 	New trial (rep=0, index=15): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+79.7423 	EXP 	trialBlue: autoDraw = False
+79.7423 	EXP 	trialOrange: autoDraw = False
+79.7423 	EXP 	trialBlue: autoDraw = False
+79.7423 	EXP 	trialOrange: autoDraw = False
+79.7423 	EXP 	trialFix: autoDraw = False
+79.7423 	EXP 	trialBlue: opacity = 1.0
+79.7423 	EXP 	trialOrange: opacity = 0.0
+79.7423 	EXP 	trialFix: autoDraw = True
+80.7257 	EXP 	trialBlue: autoDraw = True
+80.7257 	EXP 	trialOrange: autoDraw = True
+80.7418 	EXP 	trialFix: autoDraw = False
+81.0319 	DATA 	Keypress: space
+81.0478 	EXP 	New trial (rep=0, index=16): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+81.0600 	EXP 	trialBlue: autoDraw = False
+81.0600 	EXP 	trialOrange: autoDraw = False
+81.0600 	EXP 	trialFix: autoDraw = False
+81.0600 	EXP 	trialBlue: opacity = 0.0
+81.0600 	EXP 	trialOrange: opacity = 1.0
+81.0600 	EXP 	trialFix: autoDraw = True
+82.0413 	EXP 	trialBlue: autoDraw = True
+82.0413 	EXP 	trialOrange: autoDraw = True
+82.0747 	EXP 	trialFix: autoDraw = False
+84.0293 	EXP 	New trial (rep=0, index=17): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+84.0406 	EXP 	trialBlue: autoDraw = False
+84.0406 	EXP 	trialOrange: autoDraw = False
+84.0406 	EXP 	trialBlue: autoDraw = False
+84.0406 	EXP 	trialOrange: autoDraw = False
+84.0406 	EXP 	trialFix: autoDraw = False
+84.0406 	EXP 	trialBlue: opacity = 1.0
+84.0406 	EXP 	trialOrange: opacity = 0.0
+84.0406 	EXP 	trialFix: autoDraw = True
+85.0246 	EXP 	trialBlue: autoDraw = True
+85.0246 	EXP 	trialOrange: autoDraw = True
+85.0406 	EXP 	trialFix: autoDraw = False
+85.3974 	DATA 	Keypress: space
+85.4142 	EXP 	New trial (rep=0, index=18): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+85.4266 	EXP 	trialBlue: autoDraw = False
+85.4266 	EXP 	trialOrange: autoDraw = False
+85.4266 	EXP 	trialFix: autoDraw = False
+85.4266 	EXP 	trialBlue: opacity = 0.0
+85.4266 	EXP 	trialOrange: opacity = 1.0
+85.4266 	EXP 	trialFix: autoDraw = True
+86.4069 	EXP 	trialBlue: autoDraw = True
+86.4069 	EXP 	trialOrange: autoDraw = True
+86.4418 	EXP 	trialFix: autoDraw = False
+88.3952 	EXP 	New trial (rep=0, index=19): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+88.4074 	EXP 	trialBlue: autoDraw = False
+88.4074 	EXP 	trialOrange: autoDraw = False
+88.4074 	EXP 	trialBlue: autoDraw = False
+88.4074 	EXP 	trialOrange: autoDraw = False
+88.4074 	EXP 	trialFix: autoDraw = False
+88.4074 	EXP 	trialBlue: opacity = 1.0
+88.4074 	EXP 	trialOrange: opacity = 0.0
+88.4074 	EXP 	trialFix: autoDraw = True
+89.3908 	EXP 	trialBlue: autoDraw = True
+89.3908 	EXP 	trialOrange: autoDraw = True
+89.4062 	EXP 	trialFix: autoDraw = False
+89.7973 	DATA 	Keypress: space
+89.8143 	EXP 	New trial (rep=0, index=20): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+89.8263 	EXP 	trialBlue: autoDraw = False
+89.8263 	EXP 	trialOrange: autoDraw = False
+89.8263 	EXP 	trialFix: autoDraw = False
+89.8263 	EXP 	trialBlue: opacity = 1.0
+89.8263 	EXP 	trialOrange: opacity = 0.0
+89.8263 	EXP 	trialFix: autoDraw = True
+90.8060 	EXP 	trialBlue: autoDraw = True
+90.8060 	EXP 	trialOrange: autoDraw = True
+90.8393 	EXP 	trialFix: autoDraw = False
+91.2314 	DATA 	Keypress: space
+91.2482 	EXP 	New trial (rep=0, index=21): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+91.2595 	EXP 	trialBlue: autoDraw = False
+91.2595 	EXP 	trialOrange: autoDraw = False
+91.2595 	EXP 	trialFix: autoDraw = False
+91.2595 	EXP 	trialBlue: opacity = 0.0
+91.2595 	EXP 	trialOrange: opacity = 1.0
+91.2595 	EXP 	trialFix: autoDraw = True
+92.2387 	EXP 	trialBlue: autoDraw = True
+92.2387 	EXP 	trialOrange: autoDraw = True
+92.2734 	EXP 	trialFix: autoDraw = False
+94.2300 	EXP 	New trial (rep=0, index=22): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+94.2549 	EXP 	trialBlue: autoDraw = False
+94.2549 	EXP 	trialOrange: autoDraw = False
+94.2549 	EXP 	trialBlue: autoDraw = False
+94.2549 	EXP 	trialOrange: autoDraw = False
+94.2549 	EXP 	trialFix: autoDraw = False
+94.2549 	EXP 	trialBlue: opacity = 0.0
+94.2549 	EXP 	trialOrange: opacity = 1.0
+94.2549 	EXP 	trialFix: autoDraw = True
+95.2226 	EXP 	trialBlue: autoDraw = True
+95.2226 	EXP 	trialOrange: autoDraw = True
+95.2565 	EXP 	trialFix: autoDraw = False
+97.2109 	EXP 	New trial (rep=0, index=23): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+97.2233 	EXP 	trialBlue: autoDraw = False
+97.2233 	EXP 	trialOrange: autoDraw = False
+97.2233 	EXP 	trialBlue: autoDraw = False
+97.2233 	EXP 	trialOrange: autoDraw = False
+97.2233 	EXP 	trialFix: autoDraw = False
+97.2233 	EXP 	trialBlue: opacity = 0.0
+97.2233 	EXP 	trialOrange: opacity = 1.0
+97.2233 	EXP 	trialFix: autoDraw = True
+98.2039 	EXP 	trialBlue: autoDraw = True
+98.2039 	EXP 	trialOrange: autoDraw = True
+98.2374 	EXP 	trialFix: autoDraw = False
+100.1928 	EXP 	New trial (rep=0, index=24): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+100.2035 	EXP 	trialBlue: autoDraw = False
+100.2035 	EXP 	trialOrange: autoDraw = False
+100.2035 	EXP 	trialBlue: autoDraw = False
+100.2035 	EXP 	trialOrange: autoDraw = False
+100.2035 	EXP 	trialFix: autoDraw = False
+100.2035 	EXP 	trialBlue: opacity = 1.0
+100.2035 	EXP 	trialOrange: opacity = 0.0
+100.2035 	EXP 	trialFix: autoDraw = True
+101.1870 	EXP 	trialBlue: autoDraw = True
+101.1870 	EXP 	trialOrange: autoDraw = True
+101.2042 	EXP 	trialFix: autoDraw = False
+101.5599 	DATA 	Keypress: space
+101.5755 	EXP 	New trial (rep=0, index=25): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+101.5883 	EXP 	trialBlue: autoDraw = False
+101.5883 	EXP 	trialOrange: autoDraw = False
+101.5883 	EXP 	trialFix: autoDraw = False
+101.5883 	EXP 	trialBlue: opacity = 0.0
+101.5883 	EXP 	trialOrange: opacity = 1.0
+101.5883 	EXP 	trialFix: autoDraw = True
+102.5695 	EXP 	trialBlue: autoDraw = True
+102.5695 	EXP 	trialOrange: autoDraw = True
+102.6029 	EXP 	trialFix: autoDraw = False
+104.5607 	EXP 	New trial (rep=0, index=26): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+104.5707 	EXP 	trialBlue: autoDraw = False
+104.5707 	EXP 	trialOrange: autoDraw = False
+104.5707 	EXP 	trialBlue: autoDraw = False
+104.5707 	EXP 	trialOrange: autoDraw = False
+104.5707 	EXP 	trialFix: autoDraw = False
+104.5707 	EXP 	trialBlue: opacity = 0.0
+104.5707 	EXP 	trialOrange: opacity = 1.0
+104.5707 	EXP 	trialFix: autoDraw = True
+105.5535 	EXP 	trialBlue: autoDraw = True
+105.5535 	EXP 	trialOrange: autoDraw = True
+105.5690 	EXP 	trialFix: autoDraw = False
+107.5595 	EXP 	New trial (rep=0, index=27): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+107.5697 	EXP 	trialBlue: autoDraw = False
+107.5697 	EXP 	trialOrange: autoDraw = False
+107.5697 	EXP 	trialBlue: autoDraw = False
+107.5697 	EXP 	trialOrange: autoDraw = False
+107.5697 	EXP 	trialFix: autoDraw = False
+107.5697 	EXP 	trialBlue: opacity = 0.0
+107.5697 	EXP 	trialOrange: opacity = 1.0
+107.5697 	EXP 	trialFix: autoDraw = True
+108.5538 	EXP 	trialBlue: autoDraw = True
+108.5538 	EXP 	trialOrange: autoDraw = True
+108.5686 	EXP 	trialFix: autoDraw = False
+110.5585 	EXP 	New trial (rep=0, index=28): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+110.5687 	EXP 	trialBlue: autoDraw = False
+110.5687 	EXP 	trialOrange: autoDraw = False
+110.5687 	EXP 	trialBlue: autoDraw = False
+110.5687 	EXP 	trialOrange: autoDraw = False
+110.5687 	EXP 	trialFix: autoDraw = False
+110.5687 	EXP 	trialBlue: opacity = 1.0
+110.5687 	EXP 	trialOrange: opacity = 0.0
+110.5687 	EXP 	trialFix: autoDraw = True
+111.5539 	EXP 	trialBlue: autoDraw = True
+111.5539 	EXP 	trialOrange: autoDraw = True
+111.5691 	EXP 	trialFix: autoDraw = False
+111.8746 	EXP 	New trial (rep=0, index=29): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+111.8793 	DATA 	Keypress: space
+111.8882 	EXP 	trialBlue: autoDraw = False
+111.8882 	EXP 	trialOrange: autoDraw = False
+111.8882 	EXP 	trialFix: autoDraw = False
+111.8882 	EXP 	trialBlue: opacity = 1.0
+111.8882 	EXP 	trialOrange: opacity = 0.0
+111.8882 	EXP 	trialFix: autoDraw = True
+112.8672 	EXP 	trialBlue: autoDraw = True
+112.8672 	EXP 	trialOrange: autoDraw = True
+112.9015 	EXP 	trialFix: autoDraw = False
+113.2070 	EXP 	New trial (rep=0, index=30): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+113.2108 	DATA 	Keypress: space
+113.2199 	EXP 	trialBlue: autoDraw = False
+113.2199 	EXP 	trialOrange: autoDraw = False
+113.2199 	EXP 	trialFix: autoDraw = False
+113.2199 	EXP 	trialBlue: opacity = 0.0
+113.2199 	EXP 	trialOrange: opacity = 1.0
+113.2199 	EXP 	trialFix: autoDraw = True
+114.2001 	EXP 	trialBlue: autoDraw = True
+114.2001 	EXP 	trialOrange: autoDraw = True
+114.2342 	EXP 	trialFix: autoDraw = False
+116.1926 	EXP 	New trial (rep=0, index=31): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+116.2158 	EXP 	trialBlue: autoDraw = False
+116.2158 	EXP 	trialOrange: autoDraw = False
+116.2158 	EXP 	trialBlue: autoDraw = False
+116.2158 	EXP 	trialOrange: autoDraw = False
+116.2158 	EXP 	trialFix: autoDraw = False
+116.2158 	EXP 	trialBlue: opacity = 1.0
+116.2158 	EXP 	trialOrange: opacity = 0.0
+116.2158 	EXP 	trialFix: autoDraw = True
+117.1871 	EXP 	trialBlue: autoDraw = True
+117.1871 	EXP 	trialOrange: autoDraw = True
+117.2325 	EXP 	trialFix: autoDraw = False
+117.5734 	EXP 	New trial (rep=0, index=32): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+117.5769 	DATA 	Keypress: space
+117.5983 	EXP 	trialBlue: autoDraw = False
+117.5983 	EXP 	trialOrange: autoDraw = False
+117.5983 	EXP 	trialFix: autoDraw = False
+117.5983 	EXP 	trialBlue: opacity = 1.0
+117.5983 	EXP 	trialOrange: opacity = 0.0
+117.5983 	EXP 	trialFix: autoDraw = True
+118.5662 	EXP 	trialBlue: autoDraw = True
+118.5662 	EXP 	trialOrange: autoDraw = True
+118.6002 	EXP 	trialFix: autoDraw = False
+118.9053 	EXP 	New trial (rep=0, index=33): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+118.9082 	DATA 	Keypress: space
+118.9214 	EXP 	trialBlue: autoDraw = False
+118.9214 	EXP 	trialOrange: autoDraw = False
+118.9214 	EXP 	trialFix: autoDraw = False
+118.9214 	EXP 	trialBlue: opacity = 1.0
+118.9214 	EXP 	trialOrange: opacity = 0.0
+118.9214 	EXP 	trialFix: autoDraw = True
+119.8999 	EXP 	trialBlue: autoDraw = True
+119.8999 	EXP 	trialOrange: autoDraw = True
+119.9333 	EXP 	trialFix: autoDraw = False
+120.2379 	DATA 	Keypress: space
+120.2564 	EXP 	New trial (rep=0, index=34): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+120.2676 	EXP 	trialBlue: autoDraw = False
+120.2676 	EXP 	trialOrange: autoDraw = False
+120.2676 	EXP 	trialFix: autoDraw = False
+120.2676 	EXP 	trialBlue: opacity = 0.0
+120.2676 	EXP 	trialOrange: opacity = 1.0
+120.2676 	EXP 	trialFix: autoDraw = True
+121.2515 	EXP 	trialBlue: autoDraw = True
+121.2515 	EXP 	trialOrange: autoDraw = True
+121.2666 	EXP 	trialFix: autoDraw = False
+123.2526 	EXP 	New trial (rep=0, index=35): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+123.2643 	EXP 	trialBlue: autoDraw = False
+123.2643 	EXP 	trialOrange: autoDraw = False
+123.2643 	EXP 	trialBlue: autoDraw = False
+123.2643 	EXP 	trialOrange: autoDraw = False
+123.2643 	EXP 	trialFix: autoDraw = False
+123.2643 	EXP 	trialBlue: opacity = 0.0
+123.2643 	EXP 	trialOrange: opacity = 1.0
+123.2643 	EXP 	trialFix: autoDraw = True
+124.2482 	EXP 	trialBlue: autoDraw = True
+124.2482 	EXP 	trialOrange: autoDraw = True
+124.2671 	EXP 	trialFix: autoDraw = False
+126.2370 	EXP 	New trial (rep=0, index=36): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+126.2499 	EXP 	trialBlue: autoDraw = False
+126.2499 	EXP 	trialOrange: autoDraw = False
+126.2499 	EXP 	trialBlue: autoDraw = False
+126.2499 	EXP 	trialOrange: autoDraw = False
+126.2499 	EXP 	trialFix: autoDraw = False
+126.2499 	EXP 	trialBlue: opacity = 1.0
+126.2499 	EXP 	trialOrange: opacity = 0.0
+126.2499 	EXP 	trialFix: autoDraw = True
+127.2318 	EXP 	trialBlue: autoDraw = True
+127.2318 	EXP 	trialOrange: autoDraw = True
+127.2655 	EXP 	trialFix: autoDraw = False
+127.5928 	EXP 	New trial (rep=0, index=37): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+127.5962 	DATA 	Keypress: space
+127.6013 	EXP 	trialBlue: autoDraw = False
+127.6013 	EXP 	trialOrange: autoDraw = False
+127.6013 	EXP 	trialFix: autoDraw = False
+127.6013 	EXP 	trialBlue: opacity = 1.0
+127.6013 	EXP 	trialOrange: opacity = 0.0
+127.6013 	EXP 	trialFix: autoDraw = True
+128.5967 	EXP 	trialBlue: autoDraw = True
+128.5967 	EXP 	trialOrange: autoDraw = True
+128.6177 	EXP 	trialFix: autoDraw = False
+128.9217 	EXP 	New trial (rep=0, index=38): OrderedDict([('blueOpacity', 0), ('orangeOpacity', 1), ('corrAns', None)])
+128.9256 	DATA 	Keypress: space
+128.9317 	EXP 	trialBlue: autoDraw = False
+128.9317 	EXP 	trialOrange: autoDraw = False
+128.9317 	EXP 	trialFix: autoDraw = False
+128.9317 	EXP 	trialBlue: opacity = 0.0
+128.9317 	EXP 	trialOrange: opacity = 1.0
+128.9317 	EXP 	trialFix: autoDraw = True
+129.9136 	EXP 	trialBlue: autoDraw = True
+129.9136 	EXP 	trialOrange: autoDraw = True
+129.9470 	EXP 	trialFix: autoDraw = False
+131.9001 	EXP 	New trial (rep=0, index=39): OrderedDict([('blueOpacity', 1), ('orangeOpacity', 0), ('corrAns', 'space')])
+131.9128 	EXP 	trialBlue: autoDraw = False
+131.9128 	EXP 	trialOrange: autoDraw = False
+131.9128 	EXP 	trialBlue: autoDraw = False
+131.9128 	EXP 	trialOrange: autoDraw = False
+131.9128 	EXP 	trialFix: autoDraw = False
+131.9128 	EXP 	trialBlue: opacity = 1.0
+131.9128 	EXP 	trialOrange: opacity = 0.0
+131.9128 	EXP 	trialFix: autoDraw = True
+132.8955 	EXP 	trialBlue: autoDraw = True
+132.8955 	EXP 	trialOrange: autoDraw = True
+132.9126 	EXP 	trialFix: autoDraw = False
+133.2713 	DATA 	Keypress: space
+133.2799 	EXP 	trialBlue: autoDraw = False
+133.2799 	EXP 	trialOrange: autoDraw = False
+133.2799 	EXP 	trialFix: autoDraw = False
+133.2799 	EXP 	instr2: autoDraw = True
+150.6632 	DATA 	Keypress: escape
+151.1650 	EXP 	window1: mouseVisible = True
